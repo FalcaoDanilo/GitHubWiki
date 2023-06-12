@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHuub - Guia de Utilização</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>GitHub</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#usage">Utilização</a></li>
+        <li><a href="#commands">Comandos</a></li>
+        <li><a href="#other-commands">Outros Comandos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>Sobre o GitHub</h2>
+        <p>O GitHub é uma plataforma de hospedagem de código fonte e colaboração que permite que desenvolvedores
+          trabalhem juntos em projetos. Ele oferece recursos para versionamento de código, controle de alterações,
+          gerenciamento de problemas e muito mais.</p>
+        <p>Com o GitHub, é possível colaborar com outros desenvolvedores, compartilhar e revisar código, além de
+          acompanhar o histórico de alterações de um projeto.</p>
+      </div>
+    </section>
+    <section id="usage">
+      <div class="container">
+        <h2>Utilização do GitHub</h2>
+        <ol>
+          <li>
+            <h3>Passo 1: Configurar o Git</h3>
+            <p>Antes de começar a usar o GitHub, você precisa configurar o Git em seu computador. Abra o terminal e
+              execute os seguintes comandos:</p>
+            <pre><code class="command">git config --global user.name "Seu Nome"</code></pre>
+            <pre><code class="command">git config --global user.email "seu-email@example.com"</code></pre>
+          </li>
+          <li>
+            <h3>Passo 2: Criar um Repositório</h3>
+            <p>Para criar um novo repositório no GitHub, siga estes passos:</p>
+            <ol>
+              <li>Acesse o GitHub e faça login na sua conta.</li>
+              <li>Clique no botão "New" ou "Novo" para criar um novo repositório.</li>
+              <li>Preencha o nome do repositório, uma descrição opcional e escolha as configurações desejadas.</li>
+              <li>Clique em "Create Repository" ou "Criar Repositório" para criar o repositório.</li>
+            </ol>
+          </li>
+          <li>
+            <h3>Passo 3: Clonar um Repositório</h3>
+            <p>Para clonar um repositório existente do GitHub para o seu computador, siga estes passos:</p>
+            <pre><code class="command">git clone https://github.com/nome-do-usuario/nome-do-repositorio.git</code></pre>
+          </li>
+          <!-- ... adicione mais passos conforme necessário ... -->
+        </ol>
+      </div>
+    </section>
+    <section id="commands">
+      <div class="container">
+        <h2>Comandos do Git</h2>
+        <ul>
+          <li><code class="command">git init</code>: Inicializa um repositório Git</li>
+          <li><code class="command">git add</code>: Adiciona arquivos ao índice de mudanças</li>
+          <li><code class="command">git commit</code>: Cria um novo commit com as mudanças adicionadas</li>
+          <li><code class="command">git push</code>: Envia as alterações para o repositório remoto</li>
+          <li><code class="command">git pull</code>: Atualiza o repositório local com as alterações do repositório
+            remoto</li>
+          <li><code class="command">git branch</code>: Lista, cria ou deleta branches</li>
+          <li><code class="command">git checkout</code>: Muda para uma branch ou restaura arquivos</li>
+          <li><code class="command">git merge</code>: Combina mudanças de uma branch com outra</li>
+          <li><code class="command">git stash</code>: Armazena as mudanças em um stash temporário</li>
+          <li><code class="command">git cherry-pick commit</code>: Aplica as alterações de um commit específico</li>
+        </ul>
+      </div>
+    </section>
+    <section id="other-commands">
+      <div class="container">
+        <h2>Outros Comandos Importantes</h2>
+        <ul>
+          <li><code class="command">git status</code>: Mostra o status atual do repositório</li>
+          <li><code class="command">git log</code>: Exibe o histórico de commits</li>
+          <li><code class="command">git branch -D branch</code>: Deleta uma branch local</li>
+          <li><code class="command">git remote add origin remote-url</code>: Adiciona um repositório remoto</li>
+          <li><code class="command">git remote -v</code>: Lista os repositórios remotos configurados</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 GitHub Danilo&João Inc. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
